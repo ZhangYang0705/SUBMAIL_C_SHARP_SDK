@@ -10,8 +10,8 @@ namespace Submail.Lib
 	public class MMS : ISender
 	{
 		private const string API_XSEND = "http://api.mysubmail.com/mms/xsend.json";
-		private const string API_MULTIXSEND = "https://api.mysubmail.com/mms/multixsend.json";
-		private const string API_TEMPLATE = "https://api.mysubmail.com/mms/template.xml";
+		private const string API_MULTIXSEND = "http://api.mysubmail.com/mms/multixsend.json";
+		private const string API_TEMPLATE = "http://api.mysubmail.com/mms/template.json";
 		private const string API_BALANCE = "http://api.mysubmail.com/balance/mms.json";
 
 

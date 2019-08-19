@@ -9,10 +9,10 @@ namespace Submail.Lib
 {
 	public class Voice : ISender
 	{
-		private const string API_SEND = "http://api.submail.cn/voice/send.json";
-		private const string API_XSEND = "http://api.submail.cn/voice/xsend.json";
-		private const string API_MULTIXSEND = "http://api.submail.cn/voice/multixsend.json";
-		private const string API_VOICEVERIFY = "http://api.submail.cn/voice/verify.json";
+		private const string API_SEND = "http://api.mysubmail.com/voice/send.json";
+		private const string API_XSEND = "http://api.mysubmail.com/voice/xsend.json";
+		private const string API_MULTIXSEND = "http://api.mysubmail.com/voice/multixsend.json";
+		private const string API_VOICEVERIFY = "http://api.mysubmail.com/voice/verify.json";
 		private const string API_BALANCE = "http://api.mysubmail.com/balance/voice.json";
 
 		private IAppConfig _appConfig;

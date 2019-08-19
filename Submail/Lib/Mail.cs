@@ -11,10 +11,10 @@ namespace Submail.Lib
 {
 	public class Mail : ISender
 	{
-		private const string API_SEND = "http://api.submail.cn/mail/send.json";
-		private const string API_XSEND = "http://api.submail.cn/mail/xsend.json";
-		private const string API_SUBSCRIBE = "http://api.submail.cn/addressbook/mail/subscribe.json";
-		private const string API_UNSUBSCRIBE = "http://api.submail.cn/addressbook/mail/unsubscribe.json";
+		private const string API_SEND = "http://api.mysubmail.com/mail/send.json";
+		private const string API_XSEND = "http://api.mysubmail.com/mail/xsend.json";
+		private const string API_SUBSCRIBE = "http://api.mysubmail.com/addressbook/mail/subscribe.json";
+		private const string API_UNSUBSCRIBE = "http://api.mysubmail.com/addressbook/mail/unsubscribe.json";
 		private const string API_Balance = "http://api.mysubmail.com/balance/mail.json";
 
 		private IAppConfig _appConfig;

@@ -9,12 +9,12 @@ namespace Submail.Lib
 {
 	public class Message : ISender
 	{
-		private const string API_SEND = "http://api.submail.cn/message/send.json";
-		private const string API_XSEND = "http://api.submail.cn/message/xsend.json";
-		private const string API_MULTIXSEND = "http://api.submail.cn/message/multixsend.json";
-		private const string API_MULTISEND = "http://api.submail.cn/message/multisend.json";
-		private const string API_SUBSCRIBE = "http://api.submail.cn/addressbook/message/subscribe.json";
-		private const string API_UNSUBSCRIBE = "http://api.submail.cn/addressbook/message/unsubscribe.json";
+		private const string API_SEND = "http://api.mysubmail.com/message/send.json";
+		private const string API_XSEND = "http://api.mysubmail.com/message/xsend.json";
+		private const string API_MULTIXSEND = "http://api.mysubmail.com/message/multixsend.json";
+		private const string API_MULTISEND = "http://api.mysubmail.com/message/multisend.json";
+		private const string API_SUBSCRIBE = "http://api.mysubmail.com/addressbook/message/subscribe.json";
+		private const string API_UNSUBSCRIBE = "http://api.mysubmail.com/addressbook/message/unsubscribe.json";
 		private const string API_LOG = "http://api.mysubmail.com/log/message.json";
 		private const string API_TEMPLATE = "http://api.mysubmail.com/message/template.json";
 		private const string API_BALANCE = "http://api.mysubmail.com/balance/sms.json";
